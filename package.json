@@ -1,0 +1,27 @@
+{
+  "name": "method-wrapper",
+  "version": "1.0.0",
+  "description": "a object contains function & arguments & context",
+  "main": "src/Method.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lomocc/method.git"
+  },
+  "keywords": [
+    "function",
+    "arguments"
+  ],
+  "author": "Vincent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lomocc/method/issues"
+  },
+  "homepage": "https://github.com/lomocc/method#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.10.4"
+  }
+}
