@@ -1,10 +1,10 @@
 // var webpack = require("webpack");
 var path = require("path");
 module.exports = {
-    entry:[path.resolve("src/Method.js")],
+    entry:[path.resolve("index.js")],
     output: {
         path: path.resolve("dist"),
-        filename: "[name].js",
+        filename: "index.js",
         libraryTarget:"umd"
     },
     // plugins: [
@@ -19,13 +19,7 @@ module.exports = {
         loaders: [{
             test: /\.js$/,
             exclude: /node_modules/,
-            loader: 'babel',
-            query: {
-                "presets": [
-                    "es2015",
-                    "stage-0"
-                ]
-            }
+            loader: 'babel'
         }]
     }
 };
