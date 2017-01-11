@@ -1,6 +1,6 @@
 {
   "name": "method-wrapper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a object contains function & arguments & context",
   "main": "dist/index.js",
   "scripts": {
