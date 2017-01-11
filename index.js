@@ -5,4 +5,4 @@
  * setTimeout(method, 50);
  * Created by vincent on 16/7/1.
  */
-export default (func, args, context)=>()=>func && func.apply(context, args);
+export default (func, context, args)=>(newContext, newArgs)=>func && func.apply(newContext || context, newArgs || args);
